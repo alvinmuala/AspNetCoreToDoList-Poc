@@ -34,7 +34,7 @@ namespace AspNetCoreToDo
                 {
                     var logger = services.GetRequiredService<ILogger<Program>>();
 
-                    logger.LogError(ex, "Erro occurred seeding in the DB.");
+                    logger.LogError(ex, "Error occurred seeding in the DB.");
                 }
             }
         }
